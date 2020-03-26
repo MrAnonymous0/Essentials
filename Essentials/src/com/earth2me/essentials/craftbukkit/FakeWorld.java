@@ -35,6 +35,11 @@ public class FakeWorld implements World {
     }
 
     @Override
+    public DragonBattle getEnderDragonBattle() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+	
+    @Override
     public Block getBlockAt(int i, int i1, int i2) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
